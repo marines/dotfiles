@@ -1,39 +1,152 @@
 "*":
+  "activate-power-mode": {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "7a9f564b-9938-4ae3-b7a0-45c8fcfa362a"
+  "atom-typescript":
+    preferredQuoteCharacter: "'"
+  "autocomplete-plus":
+    autoActivationDelay: 150
   core:
     disabledPackages: [
+      "language-mustache"
+      "archive-view"
+      "autoflow"
       "background-tips"
+      "feedback"
       "exception-reporting"
+      "language-clojure"
+      "language-csharp"
+      "language-gfm"
+      "language-go"
+      "language-make"
+      "language-objective-c"
+      "language-perl"
+      "language-ruby-on-rails"
+      "language-toml"
+      "sync-settings"
+      "bookmarks"
+      "image-view"
+      "language-c"
+      "language-coffee-script"
+      "language-java"
+      "language-php"
+      "language-ruby"
       "metrics"
+      "spell-check"
+      "language-python"
+      "package-generator"
+      "refactor"
+      "js-refactor"
+      "atom-react-preview"
+      "linter-csslint"
+      "activate-power-mode"
+      "linter-tslint"
+      "tab-smart-sort"
+      "rainbow-tabs"
     ]
-    followSymlinks: false
-    hideGitIgnoredFiles: true
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
+    packagesWithKeymapsDisabled: [
+      "highlight-line"
+      "git-diff"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "native-ui"
+      "atom-light-syntax"
     ]
   editor:
     fontFamily: "Menlo"
+    fontSize: 13
     invisibles: {}
-    showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
+    preferredLineLength: 140
+    showInvisibles: true
+    tabType: "soft"
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "b742e410-914a-e88a-cf44-e731f6132dc4"
+  "file-icons":
+    onChanges: true
+    tabPaneIcon: false
+  "git-diff": {}
+  "git-hide":
+    hideOnStartup: false
+  "highlight-line":
+    enableSelectionBorder: true
+    enableUnderline: true
+  "highlight-selected":
+    highlightBackground: true
+    lightTheme: true
+    minimumLength: 2
+    timeout: 100
+  jshint:
+    onlyConfig: true
+    supportLintingJsx: true
+  jumpy:
+    fontSize: 1
+    highContrast: true
+  linter:
+    errorPanelHeight: 22
+  "linter-eslint":
+    disableEslintIgnore: true
+    disableFSCache: true
+    disableWhenNoEslintrcFileInPath: true
+  "linter-jscs":
+    onlyConfig: true
+  "linter-tslint": {}
+  "markdown-preview-plus": {}
+  "merge-conflicts": {}
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+    scrollAnimation: true
+  "sync-settings":
+    _analyticsUserId: "8b326b7d-f801-423a-bb6b-1da04f2c97ca"
+    _lastBackupHash: "d317ec33a28bf5db88acdd7415d54f851896b886"
+    gistId: "ecf44a5c4ec3df310de2"
+    personalAccessToken: "741b7aa1a29a6e5ec45b26501c9f68e2fecb9526"
+  "tab-smart-sort":
+    placeSpecialTabsOnRight: true
+  tabs:
+    enableVcsColoring: true
+    showIcons: false
+    usePreviewTabs: true
+  "todo-show": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".attribute-values.js.jsx.source":
+  editor:
+    preferredLineLength: 140
+".ini.source":
+  editor:
+    preferredLineLength: 140
+".js.jsx.react.source":
+  editor:
+    preferredLineLength: 140
+".js.jsx.source":
+  editor:
+    preferredLineLength: 140
+".js.source.subtlegradient":
+  editor:
+    preferredLineLength: 140
+".source.ts":
+  editor:
+    preferredLineLength: 140
+    tabLength: 4
+".source.tsx":
+  editor:
+    preferredLineLength: 140
